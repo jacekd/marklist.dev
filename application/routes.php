@@ -21,7 +21,8 @@ Route::get('/', function()
 });
 
 Route::get('view/(:any)', function($val){
-	return Sparkdown\View::make('md/'.$val);
+	$data['val'] = $val;
+	return View::make('home.view')->with($data);
 });
 
 /*

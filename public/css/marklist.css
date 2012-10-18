@@ -7,6 +7,10 @@ body {
   background-color: white;
   padding: 30px; }
 
+  .wrapper { 
+    width: 130%;
+  }
+
 body > *:first-child {
   margin-top: 0 !important; }
 body > *:last-child {
