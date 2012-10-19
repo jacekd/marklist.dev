@@ -1,6 +1,7 @@
 body {
-  font-family: Helvetica, arial, sans-serif;
-  font-size: 14px;
+  font-family: 'Carrois Gothic', sans-serif;
+  /*font-family: Helvetica, arial, sans-serif;*/
+  font-size: 16px;
   line-height: 1.6;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -8,7 +9,7 @@ body {
   padding: 30px; }
 
   .wrapper { 
-    width: 130%;
+    width: 100%;
   }
 
 body > *:first-child {
@@ -17,7 +18,8 @@ body > *:last-child {
   margin-bottom: 0 !important; }
 
 a {
-  color: #4183C4; }
+  color: #4183C4;
+  text-decoration: none; }
 a.absent {
   color: #cc0000; }
 a.anchor {
@@ -61,8 +63,11 @@ h6 tt, h6 code {
   font-size: inherit; }
 
 h1 {
-  font-size: 28px;
-  color: black; }
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 36px;
+  color: black; 
+  color: #2972A3; 
+}
 
 h2 {
   font-size: 24px;
