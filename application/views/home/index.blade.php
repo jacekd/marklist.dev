@@ -16,7 +16,7 @@
 				<?php 
 				$file = file('./application/views/md/'.$val);
 				?>
-				<h1>{{ HTML::link('view/'.trim($val, '.md'),  '&raquo;&nbsp;'.substr($file[0], 2)) }}</h1>
+				<h1>{{ HTML::link('view/'.basename($val, '.md'),  '&raquo;&nbsp;'.substr($file[0], 2)) }}</h1>
 			@endforeach	
 		</div>
 	</div>
