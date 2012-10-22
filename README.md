@@ -7,7 +7,7 @@ Written in [Laravel](http://laravel.com) with [Sparkdown](http://bundles.laravel
 
 ## Usage
 1. Point web server to public directory
-2. Copy markdown [*.md] files into *application/views/md/*
+2. Copy markdown [*md] files into *application/views/md/*
 3. You are done! 
 
 ## Questions 
